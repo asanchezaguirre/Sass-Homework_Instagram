@@ -1,0 +1,61 @@
+* {
+  outline: 1px solid red;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.component {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.component__logo img {
+  width: 175px;
+  height: 51px;
+  margin: 0 auto;
+}
+.component__login {
+  background-color: #3897f0;
+  color: white;
+  border-radius: 3px;
+  width: 270px;
+  margin: 0 auto;
+}
+.component__datos__1 {
+  color: #999;
+  border-color: EFEFEF;
+  height: 36px;
+}
+.component__datos__2 {
+  color: #999;
+  border-color: EFEFEF;
+  height: 36px;
+}
+.component__datos__3 {
+  color: #999;
+  border-color: EFEFEF;
+  height: 36px;
+}
+.component__datos__4 {
+  color: #999;
+  border-color: EFEFEF;
+  height: 36px;
+}
+.component__sign {
+  background-color: #3897f0;
+  color: white;
+  border-radius: 3px;
+  width: 270px;
+}
+.component__terminos {
+  color: #999;
+}
+
+.final {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=compilation.css.map */

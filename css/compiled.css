@@ -1,0 +1,65 @@
+body {
+  margin: 0 auto;
+  font-size: 14px; }
+
+.component {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 30px 40px 40px 40px; }
+  .component__logo img {
+    width: 175px;
+    height: 51px;
+    display: block;
+    margin: 10px auto; }
+  .component__login {
+    background-color: #3897f0;
+    color: white;
+    border-radius: 3px;
+    width: 350px;
+    text-align: center;
+    height: 36px; }
+  .component__option {
+    display: flex; }
+    .component__option__line {
+      width: 50%;
+      height: 1px;
+      background-color: #999;
+      align-self: center; }
+    .component__option__or {
+      color: #999; }
+  .component__datos__1, .component__datos__2, .component__datos__3, .component__datos__4 {
+    color: #999;
+    border-color: EFEFEF;
+    height: 36px;
+    vertical-align: center;
+    text-align: auto 0;
+    width: 350px;
+    margin-top: 20px; }
+  .component__datos input {
+    width: 335px;
+    height: 36px; }
+  .component__sign {
+    background-color: #3897f0;
+    color: white;
+    border-radius: 3px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    height: 36px;
+    line-height: 36px; }
+  .component__terminos {
+    color: #999;
+    text-align: center;
+    margin-top: 20px; }
+
+.final {
+  text-align: center;
+  width: 350px;
+  height: 70px;
+  margin: 0 auto;
+  line-height: 70px;
+  border: EFEFEF; }
+  .final a {
+    text-decoration: none; }
